@@ -14,6 +14,6 @@ argocd-autopilot repo bootstrap --recover
 
 ## Apps
 
-The applications in the ArgoCD Application set will be installed.
+The applications in the ArgoCD Application set will be installed automatically.
 
-+[cluster-addons](https://github.com/polinchw/cluster-addons/tree/dev)
++ [cluster-addons](https://github.com/polinchw/cluster-addons/tree/dev)
