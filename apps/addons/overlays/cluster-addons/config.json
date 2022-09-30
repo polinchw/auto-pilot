@@ -1,0 +1,11 @@
+{
+  "appName": "addons",
+  "userGivenName": "addons",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/addons/overlays/cluster-addons",
+  "srcRepoURL": "https://github.com/polinchw/auto-pilot.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
