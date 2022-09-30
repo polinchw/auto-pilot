@@ -1,9 +1,9 @@
 {
   "appName": "hello",
   "userGivenName": "hello",
-  "destNamespace": "default",
+  "destNamespace": "hello",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": ".",
+  "srcPath": "./hello-github-webhook",
   "srcRepoURL": "https://github.com/polinchw/hello-github-webhook-cd.git",
   "srcTargetRevision": "",
   "labels": null,
