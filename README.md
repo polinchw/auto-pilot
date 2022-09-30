@@ -9,6 +9,9 @@ This repo uses [ArgoCD's Auto Pilot](https://argocd-autopilot.readthedocs.io/en/
 To boot strap a Kubernetes cluster run this command:
 
 ```
+export GIT_TOKEN=xxxx
+export GIT_REPO=https://github.com/polinchw/auto-pilot
+
 argocd-autopilot repo bootstrap --recover
 ```
 
