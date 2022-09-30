@@ -1,7 +1,7 @@
 {
   "appName": "cluster-addons",
   "userGivenName": "cluster-addons",
-  "destNamespace": "default",
+  "destNamespace": "argocd",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/cluster-addons/overlays/cluster-addons",
   "srcRepoURL": "https://github.com/polinchw/auto-pilot.git",
