@@ -41,7 +41,12 @@ spec:
       requeueAfterSeconds: 20
       revision: ""
       template:
-        metadata: {}
+        metadata: 
+          annotations:
+            argocd-image-updater.argoproj.io/git-branch: master
+            argocd-image-updater.argoproj.io/image-list: myalias=polinchw/hello-github-webhook:~4
+            argocd-image-updater.argoproj.io/myalias.update-strategy: semver
+            argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
         spec:
           destination: {}
           project: ""
@@ -55,11 +60,6 @@ spec:
       revision: ""
       template:
         metadata: 
-          annotations:
-            argocd-image-updater.argoproj.io/git-branch: master
-            argocd-image-updater.argoproj.io/image-list: myalias=polinchw/hello-github-webhook:~4
-            argocd-image-updater.argoproj.io/myalias.update-strategy: semver
-            argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
         spec:
           destination: {}
           project: ""
