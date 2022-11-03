@@ -59,11 +59,6 @@ spec:
           destination: {}
           project: ""
           source:
-            directory:
-              exclude: '{{ exclude }}'
-              include: '{{ include }}'
-              jsonnet: {}
-              recurse: true
             repoURL: ""
   syncPolicy: {}
   template:
