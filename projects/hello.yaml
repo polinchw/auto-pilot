@@ -41,12 +41,7 @@ spec:
       requeueAfterSeconds: 20
       revision: ""
       template:
-        metadata: 
-          annotations:
-            argocd-image-updater.argoproj.io/git-branch: master
-            argocd-image-updater.argoproj.io/image-list: myalias=polinchw/hello-github-webhook:~4
-            argocd-image-updater.argoproj.io/myalias.update-strategy: semver
-            argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
+        metadata: {} 
         spec:
           destination: {}
           project: ""
@@ -59,7 +54,7 @@ spec:
       requeueAfterSeconds: 20
       revision: ""
       template:
-        metadata: 
+        metadata: {}
         spec:
           destination: {}
           project: ""
@@ -71,6 +66,11 @@ spec:
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
+      annotations:
+        argocd-image-updater.argoproj.io/git-branch: master
+        argocd-image-updater.argoproj.io/image-list: myalias=polinchw/hello-github-webhook:~4
+        argocd-image-updater.argoproj.io/myalias.update-strategy: semver
+        argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
       name: hello-{{ userGivenName }}
       namespace: argocd
     spec:
