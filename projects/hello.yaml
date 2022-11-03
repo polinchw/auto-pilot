@@ -68,6 +68,11 @@ spec:
         app.kubernetes.io/name: '{{ appName }}'
       name: hello-{{ userGivenName }}
       namespace: argocd
+      annotations:
+        argocd-image-updater.argoproj.io/git-branch: master
+        argocd-image-updater.argoproj.io/image-list: myalias=polinchw/hello-github-webhook:~4
+        argocd-image-updater.argoproj.io/myalias.update-strategy: semver
+        argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
     spec:
       destination:
         namespace: '{{ destNamespace }}'
