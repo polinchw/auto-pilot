@@ -1,0 +1,13 @@
+{
+  "appName": "hello-github-webhook",
+  "userGivenName": "hello-github-webhook",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": ".",
+  "srcRepoURL": "https://github.com/polinchw/hello-github-webhook-cd.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
