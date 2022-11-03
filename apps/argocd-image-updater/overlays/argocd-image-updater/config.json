@@ -1,7 +1,7 @@
 {
   "appName": "argocd-image-updater",
   "userGivenName": "argocd-image-updater",
-  "destNamespace": "default",
+  "destNamespace": "argocd",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/argocd-image-updater/overlays/argocd-image-updater",
   "srcRepoURL": "https://github.com/polinchw/auto-pilot.git",
