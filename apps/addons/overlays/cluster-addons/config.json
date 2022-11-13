@@ -5,7 +5,7 @@
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/addons/overlays/cluster-addons",
   "srcRepoURL": "https://github.com/polinchw/auto-pilot.git",
-  "srcTargetRevision": "",
+  "srcTargetRevision": "e7f401d401141f93ffa373c7731d1d9be2bdbae4",
   "labels": null,
   "annotations": null
 }
