@@ -1,0 +1,11 @@
+{
+  "appName": "go-microservice",
+  "userGivenName": "go-microservice",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/go-microservice/overlays/go-microservice",
+  "srcRepoURL": "https://github.com/polinchw/auto-pilot.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
