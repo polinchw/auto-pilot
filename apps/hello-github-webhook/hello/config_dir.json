@@ -5,7 +5,7 @@
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "hello-github-webhook",
   "srcRepoURL": "https://github.com/polinchw/hello-github-webhook-cd.git",
-  "srcTargetRevision": "HEAD",
+  "srcTargetRevision": "fbf08373f8b806e76ff358f00db3c4084cb5de95",
   "labels": null,
   "annotations": null,
   "exclude": "",
