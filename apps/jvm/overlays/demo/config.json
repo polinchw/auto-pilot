@@ -7,5 +7,6 @@
   "srcRepoURL": "https://github.com/polinchw/auto-pilot.git",
   "srcTargetRevision": "",
   "labels": null,
-  "annotations": null
+  "annotations": null,
+  "image": "polinchw/demo:dev-11"
 }
