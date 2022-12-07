@@ -1,0 +1,11 @@
+{
+  "appName": "jvm",
+  "userGivenName": "jvm",
+  "destNamespace": "jvm",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/jvm/overlays/demo",
+  "srcRepoURL": "https://github.com/polinchw/auto-pilot.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
