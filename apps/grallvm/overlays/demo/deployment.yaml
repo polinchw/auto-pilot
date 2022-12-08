@@ -9,3 +9,10 @@ spec:
       containers:
       - image: polinchw/demo:2.0.0
         name: demo
+        resources: 
+          limits:
+            cpu: 150m
+            memory: 150Mi
+          requests:
+            cpu: 20m
+            memory: 50Mi
