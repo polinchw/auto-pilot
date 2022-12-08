@@ -7,5 +7,5 @@ spec:
   template:
     spec:
       containers:
-      - image: polinchw/demo:dev-11
+      - image: polinchw/demo:2.0.0
         name: demo
