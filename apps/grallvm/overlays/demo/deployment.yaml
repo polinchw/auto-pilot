@@ -9,5 +9,5 @@ spec:
   template:
     spec:
       containers:
-      - image: polinchw/dev-11
+      - image: polinchw/demo:dev-11
         name: demo
