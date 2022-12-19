@@ -8,5 +8,5 @@
   "srcTargetRevision": "",
   "labels": null,
   "annotations": null,
-  "image": "polinchw/demo:dev-11"
+  "image": "polinchw/demo:1.0.0"
 }
