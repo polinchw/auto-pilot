@@ -16,3 +16,10 @@ spec:
           requests:
             cpu: 150m
             memory: 750Mi
+        env:
+          - name: SPRING_DATASOURCE_URL
+            value: jdbc:mysql://mysql.mysql.svc.cluster.local:3306/demo
+          - name: SPRING_DATASOURCE_USERNAME
+            value: demo
+          - name: SPRING_DATASOURCE_PASSWORD
+            value: demo
