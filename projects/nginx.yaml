@@ -85,6 +85,9 @@ spec:
         path: '{{ srcPath }}'
         repoURL: '{{ srcRepoURL }}'
         targetRevision: '{{ srcTargetRevision }}'
+        helm:
+          valueFiles:
+            - values-dev.yaml
       syncPolicy:
         automated:
           allowEmpty: true
