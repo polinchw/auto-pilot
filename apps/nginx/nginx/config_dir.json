@@ -10,5 +10,5 @@
   "annotations": null,
   "exclude": "",
   "include": "",
-  "helmValues": "values.yaml"
+  "helmValues": "values-dev.yaml"
 }
