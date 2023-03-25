@@ -47,6 +47,9 @@ spec:
           project: ""
           source:
             repoURL: ""
+            helm:
+              valueFiles:
+                - {{ helmValues }}
   - git:
       files:
       - path: apps/**/nginx/config_dir.json
