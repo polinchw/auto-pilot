@@ -59,11 +59,9 @@ spec:
           destination: {}
           project: ""
           source:
-            directory:
-              exclude: '{{ exclude }}'
-              include: '{{ include }}'
-              jsonnet: {}
-              recurse: true
+            helm:
+              valueFiles:
+                - values.yaml
             repoURL: ""
   syncPolicy: {}
   template:
@@ -87,9 +85,6 @@ spec:
         path: '{{ srcPath }}'
         repoURL: '{{ srcRepoURL }}'
         targetRevision: '{{ srcTargetRevision }}'
-        helm:
-          valueFiles:
-            - values.yaml
       syncPolicy:
         automated:
           allowEmpty: true
