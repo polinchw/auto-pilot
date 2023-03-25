@@ -59,9 +59,6 @@ spec:
           destination: {}
           project: ""
           source:
-            helm:
-              valueFiles:
-                - values-dev.yaml
             repoURL: ""
   syncPolicy: {}
   template:
@@ -87,7 +84,7 @@ spec:
         targetRevision: '{{ srcTargetRevision }}'
         helm:
           valueFiles:
-            - values-dev.yaml
+            - '{{ helmValues }}'
       syncPolicy:
         automated:
           allowEmpty: true
