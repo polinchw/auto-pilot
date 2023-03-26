@@ -1,0 +1,13 @@
+{
+  "appName": "nginx",
+  "userGivenName": "nginx",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "nginx",
+  "srcRepoURL": "https://github.com/polinchw/nginx-cd.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
