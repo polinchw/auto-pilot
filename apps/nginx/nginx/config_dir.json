@@ -9,5 +9,6 @@
   "labels": null,
   "annotations": null,
   "exclude": "",
-  "include": ""
+  "include": "",
+  "helmValues": "values.yaml"
 }
