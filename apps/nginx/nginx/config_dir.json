@@ -5,7 +5,7 @@
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "nginx",
   "srcRepoURL": "https://github.com/polinchw/nginx-cd.git",
-  "srcTargetRevision": "",
+  "srcTargetRevision": "HEAD",
   "labels": null,
   "annotations": null,
   "exclude": "",
