@@ -7,7 +7,7 @@ spec:
   generators:
   - git:
       repoURL: https://github.com/polinchw/cluster-addons.git
-      revision: releases/1.0.0
+      revision: HEAD
       directories:
       - path: addons/*
   template:
@@ -17,7 +17,7 @@ spec:
       project: default
       source:
         repoURL: https://github.com/polinchw/cluster-addons.git
-        targetRevision: releases/1.0.0
+        targetRevision: HEAD
         path: '{{path}}'
         helm:
           valueFiles:
